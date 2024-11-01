@@ -166,10 +166,10 @@ while True:
 
     if 'data' in response:
 
-        print(f"🐤 DONE BRO  Total Coins: {response['data']} 🪙")
+        print(f"🐤 DONE BRO  Total Coins: {response['data']} 😁")
 
     else:
 
-        print("⚡ Unexpected response format:", response)
+        print("👻 Unexpected response format:", response)
 
     time.sleep(1)  # Wait for 2 second before the next request
